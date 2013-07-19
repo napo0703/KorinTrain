@@ -1,0 +1,43 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/ipaddr"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="40dp" />
+
+    <TextView
+        android:id="@+id/hello"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="hello" />
+
+    <Button
+        android:id="@+id/buttonBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:text="BACK!" />
+
+    <Button
+        android:id="@+id/buttonStop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/buttonBack"
+        android:layout_marginLeft="28dp"
+        android:layout_toRightOf="@+id/buttonBack"
+        android:text="STOP!" />
+
+    <Button
+        android:id="@+id/buttonGo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/buttonStop"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="45dp"
+        android:text="GO!" />
+
+</RelativeLayout>
